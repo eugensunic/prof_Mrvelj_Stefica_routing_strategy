@@ -99,7 +99,7 @@
 //    } while (prva_vrijednost != odrediste.toString());
 
 //    //------------------------------------------------------------------------------- Main metoda
-//    if (vrijednost_noda.length == 0 && xyz == true) { xyz = false; return; }
+//    if (vrijednost_noda.length == 0 && xyz) { xyz = false; return; }
 
 //    for (var k = vrijednost_noda.length - 1; k >= 0; k--) {
 //        if (mem_tockeX.length != 0 && mem_tockeY.length != 0) {
@@ -227,7 +227,7 @@
 //    } while (prva_vrijednost != odrediste.toString());
 
 //    //------------------------------------------------------------------------------- Main metoda
-//    if (vrijednost_noda.length == 0 && xyz == true) { xyz = false; return; }
+//    if (vrijednost_noda.length == 0 && xyz) { xyz = false; return; }
 
 //    for (var k = vrijednost_noda.length - 1; k >= 0; k--) {
 //        if (mem_tockeX.length != 0 && mem_tockeY.length != 0) {
@@ -347,10 +347,10 @@
 //    } while (prva_vrijednost != odrediste.toString());
 
 //    //------------------------------------------------------------------------------- Main metoda
-//    if (vrijednost_noda.length == 0 && xyz == true) { xyz = false; return; }
+//    if (vrijednost_noda.length == 0 && xyz) { xyz = false; return; }
 
 //    for (var k = vrijednost_noda.length - 1; k >= 0; k--) {
-//        if (iz_izvorista == false) {
+//        if (!iz_izvorista) {
 //            if (mem_tockeX.length != 0 && mem_tockeY.length != 0) {
 //                if (vrijednost_noda.length != 0) {
 //                    next_node = new Node(mem_tockeX[mem_tockeX.length - 1] + 80, global_destinationY[global_destinationY.length - 1] + 90, vrijednost_noda[k]);
@@ -466,7 +466,7 @@
 
 
 //function povecaj2(x) {
-//    if (firstselected && secondselected == false) { document.getElementById("tablica1").style.background = "orange"; }
+//    if (firstselected && (!secondselected)) { document.getElementById("tablica1").style.background = "orange"; }
 //    if (firstselected) { x = 8; }
 //    else { x = 5; }
 //    if (varijabla2 >= 0 && varijabla2 < x) {
